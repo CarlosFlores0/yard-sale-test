@@ -7,7 +7,6 @@ const API = 'https://api.escuelajs.co/api/v1/products';
 
 const ProductList = () => {
 	const {products, isLoading} = useGetProducts(API);
-	console.log(products);
 	return (
 		<section className="main-container">
 			{
